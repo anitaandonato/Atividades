@@ -1,0 +1,12 @@
+class Carro:
+    def __init__(self, marca, modelo, ano):
+        self.marca = marca
+        self.modelo = modelo
+        self.ano = ano
+
+carro1 = Carro("Fusca", "Sedan", 1970)
+carro2 = Carro("Civic", "Hatch", 2020)
+carro3 = Carro("Mustang", "Coupe", 2022)
+
+for carro in [carro1, carro2, carro3]:
+    print(f"{carro.marca} {carro.modelo} ({carro.ano})")
