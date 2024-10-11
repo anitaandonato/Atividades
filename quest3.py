@@ -9,9 +9,9 @@ def afd_exatamente_dois_uns(string):
                 estado = 'q2'
         elif estado == 'q2':
             if simbolo == '1':
-                estado = 'q3'  # Estado de erro
+                estado = 'q3'  
     return estado == 'q2'
 
-# Teste
-print(afd_exatamente_dois_uns("101"))  # True
-print(afd_exatamente_dois_uns("111"))  # False
+
+print(afd_exatamente_dois_uns("101"))  
+print(afd_exatamente_dois_uns("111"))  
