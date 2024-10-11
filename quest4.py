@@ -6,6 +6,6 @@ def afd_um_zero(string):
                 estado = 'q1'
     return estado == 'q1'
 
-# Teste
-print(afd_um_zero("101"))  # True
-print(afd_um_zero("111"))  # False
+
+print(afd_um_zero("101"))  
+print(afd_um_zero("111"))  
