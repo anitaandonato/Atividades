@@ -9,6 +9,6 @@ def afd_par_de_zeros(string):
                 estado = 'q0'
     return estado == 'q0'
 
-# Teste
-print(afd_par_de_zeros("1010"))  # True
-print(afd_par_de_zeros("100"))   # False
+
+print(afd_par_de_zeros("1010"))  
+print(afd_par_de_zeros("100"))   
