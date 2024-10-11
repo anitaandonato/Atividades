@@ -13,7 +13,7 @@ def afd_termina_com_1(string):
                 estado = 'q1'
     return estado == 'q1'
 
-# Teste
-print(afd_termina_com_1("101"))  # True
-print(afd_termina_com_1("100"))  # False
+
+print(afd_termina_com_1("101"))  
+print(afd_termina_com_1("100"))  
 
