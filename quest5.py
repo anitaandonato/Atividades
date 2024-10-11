@@ -3,6 +3,6 @@ def afd_mesmo_inicio_fim(string):
         return True
     return string[0] == string[-1]
 
-# Teste
-print(afd_mesmo_inicio_fim("101"))  # True
-print(afd_mesmo_inicio_fim("100"))  # False
+
+print(afd_mesmo_inicio_fim("101"))  
+print(afd_mesmo_inicio_fim("100"))  
